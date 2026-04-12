@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large generated files
+*.faiss
+
+# API keys
+.env
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
