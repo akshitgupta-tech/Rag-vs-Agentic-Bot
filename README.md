@@ -173,7 +173,7 @@ The RAG bot's higher BLEU (12.91 vs 3.83) and ROUGE scores are an artifact of re
 
 ### Conclusion
 
-The Agentic bot outperforms the RAG bot on the metrics that matter most for customer support deployment — intent accuracy, response relevance, latency, and multi-step handling — while matching it on hallucination rate. The RAG bot retains an advantage in surface-level language fluency (BLEU/ROUGE), which matters more for content generation than for task-oriented support.
+The Agentic bot outperforms the RAG bot on the metrics that matter most for customer support deployment — intent accuracy, response relevance, latency, multi-step handling and hallucination rate. The RAG bot retains an advantage in surface-level language fluency (BLEU/ROUGE), which matters more for content generation than for task-oriented support.
 
 > The Agentic bot achieved a significantly higher intent accuracy of 71.7% vs the RAG bot's 35.0%, a higher response relevance score of 0.802 vs 0.582, and zero hallucination — while running 0.58s faster per query on average. The RAG bot's higher BLEU score (12.91 vs 3.83) reflects lexical overlap with the training corpus rather than response quality.
 
@@ -222,4 +222,4 @@ For task-oriented customer support, the Agentic architecture is the stronger cho
 
 ## Authors
 
-B.Tech / M.Tech Engineering Project — Generative AI Domain
+Akshit Gupta
