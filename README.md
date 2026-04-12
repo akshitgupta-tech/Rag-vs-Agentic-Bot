@@ -123,7 +123,7 @@ Notebook 3 (Evaluation)
 |--------|---------|-------------|--------|
 | Intent Accuracy (%) | 35.0 | **71.7** | Agentic |
 | Response Relevance (0–1) | 0.582 | **0.802** | Agentic |
-| Hallucination Rate (%) | 0.0 | 0.0 | Tie |
+| Hallucination Rate (%) | 1.7 | 0.0 | Agentic |
 | Multi-step Success (%) | N/A | **30.0** | Agentic only |
 | Avg Latency (s) | 5.49 | **4.91** | Agentic |
 | BLEU Score | **12.91** | 3.83 | RAG |
@@ -144,8 +144,7 @@ The Agentic bot leads on intent accuracy (71.7% vs 35.0%) and response relevance
 
 ![Hallucination Rate](results/plots/plot2_hallucination.png)
 
-Both bots achieve 0.0% hallucination. The RAG bot is grounded by retrieved chunks; the Agentic bot is grounded by the structured `POLICIES` dictionary. Neither architecture fabricates facts when anchored to a knowledge source.
-
+The RAG bot achieves 1.7% hallucination whereas Agentic Bot score is grounded by the structured `POLICIES` dictionary. So, Agentic Bot performs better in this regards.
 ---
 
 ### Plot 3 — Latency per query
