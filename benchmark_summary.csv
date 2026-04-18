@@ -1,9 +1,9 @@
 Metric,RAG Bot,Agentic Bot,Better
-Intent Accuracy (%),35.0,71.7,Agentic
-Response Relevance (0-1),0.582,0.802,Agentic
-Hallucination Rate (%),0.0,0.0,Tie
-Multi-step Success (%),N/A (architectural limit),30.0,Agentic (only)
-Avg Latency (s),5.49,4.91,Agentic
-BLEU Score,12.91,3.83,RAG
-ROUGE-L Score,0.304,0.219,RAG
+Intent Accuracy (%),40.0,83.3,Agentic
+Response Relevance (0-1),0.580,0.792,Agentic
+Hallucination Rate (%),18.3,16.7,Agentic
+Multi-step Success (%),N/A (architectural limit),40.0,Agentic (only)
+Avg Latency (s),5.70,4.49,Agentic
+BLEU Score,12.92,3.92,RAG
+ROUGE-L Score,0.295,0.221,RAG
 Tool Invocation Accuracy (%),N/A,96.7,Agentic (only)
